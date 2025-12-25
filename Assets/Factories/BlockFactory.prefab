@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8041650317276514212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1787538350733309111}
+  - component: {fileID: 6929900250744180168}
+  m_Layer: 0
+  m_Name: BlockFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1787538350733309111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8041650317276514212}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6929900250744180168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8041650317276514212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e3627d25ee56144afd63655a141462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Match3.Factories.BlockFactory
+  _ingameBlockPrefab: {fileID: 3394594824185293908, guid: ff47a4a701bd49146836bec89823e265, type: 3}
+  _blockSettings:
+  - {fileID: 11400000, guid: 61bc0cf5eed41fb41bd04d3b8d0c4937, type: 2}
+  - {fileID: 11400000, guid: 247cd2835ebde26459ff7bd386390cd3, type: 2}
+  - {fileID: 11400000, guid: dbe366eb0f799e14c80eceaac93fdfb5, type: 2}
+  - {fileID: 11400000, guid: 79174483c4bc359458f658c3a35d5c42, type: 2}
+  - {fileID: 11400000, guid: 52dbc07e6b4cea14983fdf05973a6b69, type: 2}
+  - {fileID: 11400000, guid: 4d269d85296d4084ea9e783eb062c9e8, type: 2}
+  - {fileID: 11400000, guid: b84037a97dd99b540b5765195ae58b9c, type: 2}
+  - {fileID: 11400000, guid: 76c338425b5ed7344bee8e4e3d8aca0f, type: 2}
+  - {fileID: 11400000, guid: b38a208983e35da4aa8280f712f7a67e, type: 2}
+  - {fileID: 11400000, guid: 8e12ad84433fb8740b854af59d11f4d4, type: 2}
+  - {fileID: 11400000, guid: 0112a784b0a3a8a47bc7449060b6f4bf, type: 2}
+  - {fileID: 11400000, guid: 30ab134da410d17439f77a3d67d2831d, type: 2}
+  - {fileID: 11400000, guid: ea03b743a2f0853449a16077ca0fbe95, type: 2}
+  - {fileID: 11400000, guid: 37a0dd322581c304f8d8d78fb12e5b8a, type: 2}
+  - {fileID: 11400000, guid: 15f5898bb0c76504c97184cddce722b0, type: 2}
+  - {fileID: 11400000, guid: 53bd3211194f0714f891104135211ee5, type: 2}
+  - {fileID: 11400000, guid: 2efc4e675b5bb6746a0a67fc87904a52, type: 2}
+  - {fileID: 11400000, guid: 19b4e85be14b9a247aed88072ff82c12, type: 2}
+  - {fileID: 11400000, guid: 3d22f24854581e245a2348222e0ade05, type: 2}
+  - {fileID: 11400000, guid: fd68868dfed83024f8014e8091c361d4, type: 2}
+  - {fileID: 11400000, guid: 1c8c82a0d9c522042a6e16bfda9adf2e, type: 2}
+  - {fileID: 11400000, guid: d4384774d80fe2c448c0536751936649, type: 2}
+  - {fileID: 11400000, guid: 16cc962af6416eb4f9df027c83eb57f6, type: 2}
+  - {fileID: 11400000, guid: 2c389fab541f7f845baa0af2e3a0930e, type: 2}
+  - {fileID: 11400000, guid: 33519496070c54448b5943d3de19d3d0, type: 2}
+  - {fileID: 11400000, guid: 1ebbe656ce1ec1043943c533c0cd47f9, type: 2}
+  - {fileID: 11400000, guid: 88d550647040d4548b6b7a6ebe68a356, type: 2}
+  - {fileID: 11400000, guid: f94c74ccc5e5bf34898f835c0ae54d10, type: 2}
+  - {fileID: 11400000, guid: 05ba43ed76aaebe458b60999d0a81d4e, type: 2}
+  - {fileID: 11400000, guid: 824adbbc2de052e4cbb0c98e31d671c6, type: 2}
+  - {fileID: 11400000, guid: c217b62d80c7754438b57211e0ac6aca, type: 2}
+  - {fileID: 11400000, guid: 1c50f6ff30a0fca48bd264ef410c1f6c, type: 2}
+  - {fileID: 11400000, guid: 3abf421ab203af54f908fe29128f6bd2, type: 2}
+  - {fileID: 11400000, guid: 9b1072082782bd3408b6eda1f57903ce, type: 2}
+  - {fileID: 11400000, guid: 7296b52877382c94fa2ec546fac15e7b, type: 2}

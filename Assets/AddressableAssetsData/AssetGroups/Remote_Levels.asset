@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote_Levels
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Remote_Levels
+  m_GUID: aad0758c374f16b4286b58041b91b1e6
+  m_SerializeEntries:
+  - m_GUID: 0c0971fe505b2864ca2c0141972fa5d1
+    m_Address: Assets/Blocks/LevelConfig/Level 4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Level
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f83cca76b465d2458c6aea4894efcab
+    m_Address: Assets/Blocks/LevelConfig/Level 7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Level
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a454d65c820503469dbbebdcd248608
+    m_Address: Assets/Blocks/LevelConfig/Level 8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Level
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 511cd832940be884297cd32b064b0bb3
+    m_Address: Assets/Blocks/LevelConfig/Level 1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Level
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6123e39748e7b1a4fa0a7d11d5c72d23
+    m_Address: Assets/Blocks/LevelConfig/Level 9.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Level
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7490c1e8bae7bf24dac7b1be229c90a1
+    m_Address: Assets/Blocks/LevelConfig/Level 6.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Level
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b21ba727f0aec934cbfbd6d0b9b5ccc5
+    m_Address: Assets/Blocks/LevelConfig/Level 10.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Level
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9391014e51118f488dbb549dfbee6c3
+    m_Address: Assets/Blocks/LevelConfig/Level 5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Level
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e226fe60efe24fb4ba301f4d102f8f69
+    m_Address: Assets/Blocks/LevelConfig/Level 2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Level
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff885e59e0cd9c74486970933c154d54
+    m_Address: Assets/Blocks/LevelConfig/Level 3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Level
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4c77277ec21c2b4458b7dec6a5312372, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4e3db49eea847344ea8d2f6b16dfb364, type: 2}
+    - {fileID: 11400000, guid: 9c8f1ce1db7e52545be6c5f7debecefa, type: 2}
+    - {fileID: 11400000, guid: ad2b7b39e3344f4428f0ce031da3934a, type: 2}

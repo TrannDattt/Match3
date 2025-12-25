@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0987264f031ae414b910d761cf5772ed, type: 3}
+  m_Name: Level 5
+  m_EditorClassIdentifier: Assembly-CSharp::Match3.Datas.LevelConfigSO
+  LevelID: 569e6d09-b3cf-46c0-9c06-49f68a7df1e7
+  LevelNumber: 5
+  MaxTurns: 20
+  ScoreThreshold1: 400
+  ScoreThreshold2: 600
+  ScoreThreshold3: 800
+  Objectives:
+  - Type: 5
+    Amount: 20
