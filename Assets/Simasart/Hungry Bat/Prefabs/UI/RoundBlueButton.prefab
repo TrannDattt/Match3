@@ -383,19 +383,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7983343827060315665}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Match3.Views.Components.GameAudio, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 1eb392137d0521d43868e071cde9e1b4, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &7983343827379668320
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,6 +395,7 @@ GameObject:
   - component: {fileID: 7983343827379668321}
   - component: {fileID: 7983343827379668322}
   - component: {fileID: 8230192645298790029}
+  - component: {fileID: 4687266337626076781}
   m_Layer: 5
   m_Name: RoundBlueButton
   m_TagString: Untagged
@@ -455,3 +444,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Match3.Views.ButtonAudio
   _buttonClickSfx: {fileID: 8300000, guid: 1eb392137d0521d43868e071cde9e1b4, type: 3}
+--- !u!114 &4687266337626076781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7983343827379668320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9a64e437d47fa41b74cf962209ea37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Match3.Views.Components.ButtonInteraction
+  _shrinkRate: 0.9
+  _bulgeRate: 1.1

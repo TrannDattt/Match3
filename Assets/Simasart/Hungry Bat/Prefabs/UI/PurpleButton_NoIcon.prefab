@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 613901452415578660}
   - component: {fileID: 3380144407373907618}
   - component: {fileID: 6060875627919083358}
+  - component: {fileID: -1730709375806157316}
   m_Layer: 5
   m_Name: PurpleButton_NoIcon
   m_TagString: Untagged
@@ -135,6 +136,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Match3.Views.ButtonAudio
   _buttonClickSfx: {fileID: 8300000, guid: 1eb392137d0521d43868e071cde9e1b4, type: 3}
+--- !u!114 &-1730709375806157316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8674672681274715043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9a64e437d47fa41b74cf962209ea37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Match3.Views.Components.ButtonInteraction
+  _shrinkRate: 0.9
+  _bulgeRate: 1.1
 --- !u!1 &8937263173294817713
 GameObject:
   m_ObjectHideFlags: 0

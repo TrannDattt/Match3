@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 3159177189921849936}
   - component: {fileID: 1306504113023793558}
   - component: {fileID: 4842158830481910821}
+  - component: {fileID: 7410758382279298590}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -244,6 +245,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Match3.Views.ButtonAudio
   _buttonClickSfx: {fileID: 8300000, guid: 1eb392137d0521d43868e071cde9e1b4, type: 3}
+--- !u!114 &7410758382279298590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2995804270309076711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9a64e437d47fa41b74cf962209ea37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Match3.Views.Components.ButtonInteraction
+  _shrinkRate: 0.9
+  _bulgeRate: 1.1
 --- !u!1 &5552928631612889654
 GameObject:
   m_ObjectHideFlags: 0
